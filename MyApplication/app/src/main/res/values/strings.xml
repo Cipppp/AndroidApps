@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Cip\'s inventory</string>
+    <string name="order_by_name">Order by name</string>
+    <string name="filter_by_name">Filter by name</string>
+    <string name="filter_by_price_under_200">Filter by price (under $200)</string>
+</resources>
