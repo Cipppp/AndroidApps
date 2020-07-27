@@ -20,9 +20,11 @@ class MainActivity : AppCompatActivity() {
             if (user != null)  {
                 val dashbordIntent = Intent(this, DashbordActivity::class.java)
                 startActivity(dashbordIntent)
+                finish()
             } else {
                 val signInIntent = Intent(this, SignInActivity::class.java)
                 startActivity(signInIntent)
+                finish()
             }
         }, 2000)
     }
