@@ -45,6 +45,13 @@ class SignUpActivity : AppCompatActivity() {
         auth.createUserWithEmailAndPassword(email_text.text.toString(), password_text.text.toString())
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
+                    val user = auth.currentUser
+
+                    user!!.sendEmailVerification()
+                        .addOnCompleteListener { task ->
+                            startActivity(Intent(this, LoginActivity::class.java))
+                            finish()
+                        }
                     startActivity(Intent(this, LoginActivity::class.java))
                     finish()
                 } else {
