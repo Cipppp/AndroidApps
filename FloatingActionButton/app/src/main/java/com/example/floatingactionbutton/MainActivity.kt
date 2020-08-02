@@ -65,11 +65,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun setClickable(clicked: Boolean) {
         if (!clicked) {
-            edit_btn.isClickable = false
-            image_btn.isClickable = false
-        } else {
             edit_btn.isClickable = true
             image_btn.isClickable = true
+        } else {
+            edit_btn.isClickable = false
+            image_btn.isClickable = false
         }
     }
 
