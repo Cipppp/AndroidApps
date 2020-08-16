@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1577075536/andfun-kotlin-android-trivia.iml" filepath="$PROJECT_DIR$/.idea/modules/1577075536/andfun-kotlin-android-trivia.iml" group="andfun-kotlin-android-trivia" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="andfun-kotlin-android-trivia/app" />
-    </modules>
-  </component>
-</project>
