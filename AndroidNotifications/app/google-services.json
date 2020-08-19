@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "966365191224",
+    "firebase_url": "https://pushnotification-c551f.firebaseio.com",
+    "project_id": "pushnotification-c551f",
+    "storage_bucket": "pushnotification-c551f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966365191224:android:ec5f93ceeb6be03e3a5acd",
+        "android_client_info": {
+          "package_name": "com.example.android.eggtimernotifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966365191224-3a32tn7msbq76cdeem2q9hpctfgrlqrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA8kbL3BQK-fwiS1Ns3XFsBtDqTWkFJ-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966365191224-3a32tn7msbq76cdeem2q9hpctfgrlqrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
