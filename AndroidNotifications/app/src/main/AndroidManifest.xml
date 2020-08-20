@@ -19,9 +19,9 @@
 
     <application
             android:allowBackup="true"
-            android:icon="@drawable/egg_icon"
+            android:icon="@drawable/protein"
             android:label="@string/app_name"
-            android:roundIcon="@drawable/egg_notification"
+            android:roundIcon="@drawable/protein"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
 
