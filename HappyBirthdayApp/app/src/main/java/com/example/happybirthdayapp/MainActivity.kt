@@ -13,6 +13,7 @@ import androidx.dynamicanimation.animation.SpringForce
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -35,14 +36,16 @@ class MainActivity : AppCompatActivity() {
 //            // Create animator without using curved path
 //        }
 
-        findViewById<View>(R.id.wishTextView).also { img ->
-            SpringAnimation(img, DynamicAnimation.TRANSLATION_Y).apply {
 
+
+        findViewById<View>(R.id.imageView).also { img ->
+            SpringAnimation(img, DynamicAnimation.TRANSLATION_Y).apply {
                 //Setting the damping ratio to create a low bouncing effect.
                 spring.dampingRatio = SpringForce.DAMPING_RATIO_LOW_BOUNCY
-
             }
         }
+
+
 
 
 
